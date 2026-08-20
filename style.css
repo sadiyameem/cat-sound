@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#catSound {
+    width: 400px;
+}
+
+#btn {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: black;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
